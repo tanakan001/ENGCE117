@@ -70,3 +70,4 @@ void swapNodes( studentNode **head, char *name1, char *name2) {
     strcpy(temp, node1->name);
     strcpy(node1->name, node2->name);
     strcpy(node2->name, temp);
+}
